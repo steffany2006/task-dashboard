@@ -1,3 +1,14 @@
+# Java desktop build and local data
 out/
 *.class
 .cmu-document-requests.dat
+
+# Node and frontend build artifacts
+node_modules/
+dist/
+build/
+coverage/
+.env*
+*.log
+.cache/
+.DS_Store
